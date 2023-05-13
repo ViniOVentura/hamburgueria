@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, onChangeText} from "react-native";
+import {Text, View, Image, TextInput, TouchableOpacity} from "react-native";
 import styles from '../styles/styles'
 import logo from '../img/logo.avif'
 
@@ -10,7 +10,7 @@ return<View style={styles.loginBackground}>
         <TextInput 
         style={styles.textInput} 
         placeholder="Email" 
-        placeholderTextColor={'#'}
+        placeholderTextColor={'#787878'}
         secureTextEntry={true}
         /> 
       </View> 
@@ -18,13 +18,13 @@ return<View style={styles.loginBackground}>
         <TextInput 
         style={styles.textInput} 
         placeholder="Senha" 
-        placeholderTextColor={'#'}
+        placeholderTextColor={'#787878'}
         secureTextEntry={true}
         /> 
       </View> 
       <View>
-    <TouchableOpacity onPress={() => {alert('Cu')}}>
-        <Text>
+    <TouchableOpacity style={styles.loginButton}onPress={() => {alert('Cabo')}}>
+        <Text style={styles.textLoginButton}>
             Login
         </Text>
     </TouchableOpacity>

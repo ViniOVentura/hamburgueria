@@ -36,7 +36,6 @@ export default StyleSheet.create({
     imgPromo: {
         width: '75px',
         height: '75px',
-        // resizeMode: 'contain',
         marginLeft: '15px',
         borderRadius: '20px'
     },
@@ -51,11 +50,9 @@ export default StyleSheet.create({
     },
     viewSale: {
         flexDirection: "row",
-        //paddingVertical: 20,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        //border: '2px solid #B00000',
         borderRadius: '10px',
         padding: '5px',
         margin: '3px',
@@ -94,13 +91,9 @@ export default StyleSheet.create({
         marginRight: 20,
     },
     buttonText: {
+        color: '#FFFFFF',
         fontWeight: '700',
         fontSize: 22
-    },
-    itemDescription: {
-        fontSize: 12,
-        fontFamily: "Comic Sans MS",
-        color: '#C4C4C4'
     },
     buyButton: {
         margin: 16,
@@ -138,19 +131,6 @@ export default StyleSheet.create({
         padding: 10,
         marginLeft: 20,
     },
-    forgotButton: {
-        height: 30,
-        marginBottom: 30,
-    },
-    loginButton: {
-        width: "80%",
-        borderRadius: 25,
-        height: 50,
-        alignItems: "center",
-        justifyContent: "center",
-        marginTop: 40,
-        backgroundColor: "#FF1493",
-    },
     warnLogin:{
         fontSize: 32,
         fontWeight: '700',
@@ -160,6 +140,34 @@ export default StyleSheet.create({
         textAlign: 'center'
         
     },
+    textLoginButton: {
+        fontFamily: "Comic Sans MS",
+        fontSize: 21,
+        fontWeight: '500',
+    },
+    tabBarLabelStyle:{
+        width:'100%',
+        flex:1,
+        fontWeight: '500',
+        fontSize: 16,
+        lineHeight: 21,
+        paddingTop: 21,
+        backgroundColor: '#FFAAAA',
+        fontFamily: 'Fantasy'
+    },
+    loginButton:{
+        height: '60px',
+        width: '100px',
+        backgroundColor: '#B00000',
+        textAlign: 'center',
+        borderRadius: '20px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: 20,
+    }
+    
+
     
 
 })
